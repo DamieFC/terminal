@@ -47,3 +47,17 @@
 
 #include "../../include/prompt.h"
 
+int main(){
+    psPrompt();
+    if (input == "chicken"){
+        print("Wishing Daffy lots of luck\n");
+        print("Cause Elmer Fudd's a hunting duck\n");
+        print("They\'re dreaming about their little fricassee\n");
+        print("And Bugs Bunny is a friend of mine\n");
+        print("Eating him I'd feel like Frankenstein\n");
+        print("Eating flesh seems pretty foul to me\n");
+        print("----------------------------------------------");
+        print("(c) MDC 1982");
+        print("%s", prompt);
+    }
+}
