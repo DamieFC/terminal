@@ -5,13 +5,13 @@
 #ifndef PROMPT_H
 #define PROMPT_H
 
-#include<stdio.h>
+#include "../include/io.h"
 
 // Important variables
 char input;
-char PROMPT = "you@dfcterm>";
+char prompt = "you@dfcterm>";
 
 void psPrompt(void){
-    printf("%s", PROMPT);
-    scanf("%s", input);
+    printf("%s", prompt);
+    gets("%s", input);
 }
