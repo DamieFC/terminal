@@ -17,5 +17,4 @@ boolean cmdrunning;
 void psPrompt(void){
     printf("%s", prompt);
     gets("%s", input);
-    cmdrunning = T
 }
