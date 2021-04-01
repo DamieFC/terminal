@@ -7,4 +7,5 @@
 
 int main(){
     psPrompt();
+    cmdrunning = T
 }
